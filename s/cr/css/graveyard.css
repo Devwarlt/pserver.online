@@ -1,0 +1,42 @@
+.total-fame i {
+    opacity: .5
+}
+
+.bonus-table td:nth-child(2), .bonus-table th:nth-child(2) {
+    text-align: right
+}
+
+.bonus-table th {
+    padding: 0;
+    background-color: #fff !important
+}
+
+.bonus-table tr.total {
+    border-top: 1px solid #aaa
+}
+
+.popover-title {
+    text-align: left
+}
+
+.pagination-small ul > li > a, .pagination-small ul > li > span {
+    padding: 2px 8px
+}
+
+.filter-label {
+    display: inline-block;
+    width: 90px
+}
+
+table.main-achievements td:nth-child(1) span {
+    margin-bottom: -4px
+}
+
+table.main-achievements td:nth-child(1), table.main-achievements th:nth-child(1) {
+    width: 42px;
+    padding: 2px 0 0 8px
+}
+
+table.main-achievements td:nth-child(3), table.main-achievements td:nth-child(4), table.main-achievements td:nth-child(5), table.main-achievements td:nth-child(6), table.main-achievements th:nth-child(3), table.main-achievements th:nth-child(4), table.main-achievements th:nth-child(5), table.main-achievements th:nth-child(6), table.maxed-stats-by-class td:nth-child(10), table.maxed-stats-by-class td:nth-child(11), table.maxed-stats-by-class td:nth-child(2), table.maxed-stats-by-class td:nth-child(3), table.maxed-stats-by-class td:nth-child(4), table.maxed-stats-by-class td:nth-child(5), table.maxed-stats-by-class td:nth-child(6), table.maxed-stats-by-class td:nth-child(7), table.maxed-stats-by-class td:nth-child(8), table.maxed-stats-by-class td:nth-child(9), table.maxed-stats-by-class th:nth-child(10), table.maxed-stats-by-class th:nth-child(11), table.maxed-stats-by-class th:nth-child(2), table.maxed-stats-by-class th:nth-child(3), table.maxed-stats-by-class th:nth-child(4), table.maxed-stats-by-class th:nth-child(5), table.maxed-stats-by-class th:nth-child(6), table.maxed-stats-by-class th:nth-child(7), table.maxed-stats-by-class th:nth-child(8), table.maxed-stats-by-class th:nth-child(9), table.other-achievements td:nth-child(2), table.other-achievements td:nth-child(3), table.other-achievements td:nth-child(4), table.other-achievements td:nth-child(5), table.other-achievements th:nth-child(2), table.other-achievements th:nth-child(3), table.other-achievements th:nth-child(4), table.other-achievements th:nth-child(5) {
+    text-align: right
+}

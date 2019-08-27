@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msapplication-config" content="none">
+    <meta name="keywords" content="pserver, rotmg pserver, realm of the mad god private server, private rotmg server">
+    <meta property="og:url" content="http://pserver.online/">
+    <meta property="og:site_name" content="PServer.Online">
+    <meta property="og:title" content="Official Wiki for PServers!">
+    <meta property="og:description"
+          content="Rankings, statistics and more contents from most popular RotMG PServers like Valor, Project B and RotF.">
+    <meta property="og:image" content="http://pserver.online/s/cr/img/oryx-hq-icon.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="146">
+    <meta property="og:image:height" content="146">
+    <title>Home | PServer.online</title>
+    <link rel="shortcut icon" href="/s/cr/img/oryx-hq-icon.png">
+    <link rel="cannonical" href="/">
+    <link href="/s/cr/css/re.css" rel="stylesheet">
+    <link rel="preload" href="/s/cr/css/graveyard.css" as="style">
+    <link rel="preload" href="/s/cr/js/jquery-1.12.4.js" as="script">
+    <link rel="preload" href="/s/cr/js/typeahead.bundle.js" as="script">
+    <link rel="preload" href="/s/cr/js/bootstrap.js" as="script">
+    <link rel="preload" href="/s/cr/js/jquery.timeago.js" as="script">
+    <link rel="preload" href="/s/cr/js/jquery.tablesorter.js" as="script">
+    <link rel="preload" href="/s/cr/js/realmeye.js" as="script">
+    <link rel="preload" href="/s/cr/js/underscore.js" as="script">
+    <link rel="preload" href="/s/cr/js/sheet.js" as="script">
+    <link rel="preload" href="/s/cr/js/characters.js" as="script">
+    <link rel="preload" href="/s/cr/js/graveyard.js" as="script">
+    <link rel="preload" href="/s/cr/js/constants.js" as="script">
+    <link rel="preload" href="/s/cr/img/bg.gif" as="image">
+    <link rel="preload" href="/s/cr/img/sheets.png" as="image">
+    <link rel="preload" href="/s/cr/css/renders.png" as="image">
+    <style type="text/css">
+        .img-outline {
+            -webkit-filter: drop-shadow(0px 1px 0 black) drop-shadow(1px 0px 0 black) drop-shadow(0px -1px 0 black) drop-shadow(-1px 0px 0 black);
+            filter: drop-shadow(0px 1px 0 black) drop-shadow(1px 0px 0 black) drop-shadow(0px -1px 0 black) drop-shadow(-1px 0px 0 black);
+        }
+
+        .flashing {
+            font-weight: bold;
+            animation-duration: 750ms;
+            animation-name: blink;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        @keyframes blink {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0.5;
+            }
+        }
+
+        .disable-click {
+            pointer-events: none;
+        }
+
+        .checkmark ul {
+            list-style: none;
+        }
+
+        .checkmark ul li:before {
+            content: '\2714\0020';
+        }
+
+        .opacitor li a {
+            opacity: 0.5;
+        }
+
+        body {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+
+        .overlay {
+            color: #b0b0b0;
+            height: 0;
+            width: 100%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.9);
+            overflow-x: hidden;
+            transition: 0.75s;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+    </style>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-8586728081361575",
+            enable_page_level_ads: true
+        });
+    </script>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div id="loading" class="overlay">
+            <div style="text-align: center"><img src="/s/cr/img/loading.gif" width="48" height="48"/><br><b>Loading
+                data, please
+                wait...</b></div>
+        </div>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="welcome brand navbar-brand" href="#" tabindex="-1">
+                    <img class="realm-eye" alt="eye" title="PServer.Online" src="/s/cr/img/oryx-hq-icon.png" width="32"
+                         height="32" style="margin-top: -6px; margin-left: -36px"><span
+                        style="color: #cc5d00">pserver</span><span
+                        style="color: #b0b0b0">.online</span></a>
+            </div>
+            <ul class="nav navbar-nav opacitor" style="font-weight: bold">
+                <li class="donate">
+                    <span class="btn btn-danger navbar-form navbar-btn" style="margin-top: 10px"
+                          title="I want to donate ;)">Donate <small><span
+                            class="glyphicon glyphicon-usd"></span></small>
+                    </span>
+                </li>
+                <li><span>&nbsp;</span></li>
+                <li class="valor"><a href="#">Valor</a></li>
+                <li class="disabled disable-click"><a href="#">Project B</a></li>
+                <li class="disabled disable-click"><a href="#">RotF</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div style="padding-bottom: 40px" class="container">
+    <noscript>
+        <div class="help-block alert alert-info">It seems like you have disabled javascript. The site uses it
+            extensively, so expect a much degraded experience!
+        </div>
+    </noscript>
+    <div class="row">
+        <div id="dynamic-content" class="col-md-12"></div>
+    </div>
+    <footer style="text-align: center; color: gray">
+        <hr>
+        <!-- Start of adf.ly banner code -->
+        <a href="https://join-adf.ly/8203148"><img border="0" src="https://cdn.adf.ly/images/banners/adfly.350x19.1.png"
+                                                   width="350" height="19"
+                                                   title="AdF.ly - shorten urls and earn money!"/></a>
+        <!-- End of adf.ly banner code -->
+        <br>
+        <br>
+        <div id="version"></div>
+        <div>&copy; PServer.Online 2019. Website made by <span href="#" style="color: #e68100" class="flashing"
+                                                               title="Discord contact">Devwarlt#8483 <img
+                style="margin-bottom: 2px" src="/s/cr/img/discord-512.png" width="16" height="16"/></span></div>
+    </footer>
+</div>
+</body>
+<link href="/s/cr/css/graveyard.css" rel="stylesheet">
+<script src="/s/cr/js/jquery-1.12.4.js"></script>
+<script src="/s/cr/js/typeahead.bundle.js"></script>
+<script src="/s/cr/js/bootstrap.js"></script>
+<script src="/s/cr/js/jquery.timeago.js"></script>
+<script src="/s/cr/js/jquery.tablesorter.js"></script>
+<script src="/s/cr/js/realmeye.js"></script>
+<script src="/s/cr/js/underscore.js"></script>
+<script src="/s/cr/js/sheet.js"></script>
+<script src="/s/cr/js/characters.js"></script>
+<script src="/s/cr/js/graveyard.js"></script>
+<script src="/s/cr/js/constants.js"></script>
+<script src="/s/cr/js/utils.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        // display welcome message first
+        $("#loading").height("100%");
+
+        window.setTimeout(function () {
+            $.post(actions, {requestId: "welcome", packetId: "WELCOME"}).done(function (data) {
+                $("#dynamic-content").html(data);
+                $("#loading").height("0%");
+            });
+        }, delayMS / 2);
+
+        // display wiki version
+        $("#version").html('<b>Build:</b> ' + version);
+
+        addEvent("welcome", "WELCOME");
+        addEvent("donate", "DONATE");
+
+        Object.keys(pservers).forEach(function (value) {
+            addEventMain(pservers[value].name, "WEBSITE");
+        });
+
+        // disable host advertise
+        disableAdvertise();
+    });
+
+    $(document).click(function () {
+        // set active list objects on click
+        $('nav ul li').click(function (e) {
+            e.preventDefault();
+
+            $('li').removeClass('active');
+            $(this).addClass('active');
+        });
+    });
+
+    function addEvent(target, packetId) {
+        $("." + target).click(function () {
+            $.post(actions, {requestId: target, packetId: packetId}).done(function (data) {
+                document.title = upperCaseFirst(target === "welcome" ? "home" : target) + " | PServer.Online";
+                $("#dynamic-content").html(data);
+            });
+        });
+    }
+
+    function addEventMain(target, packetId) {
+        $("." + target).click(function () {
+            $("#loading").height("100%");
+
+            window.setTimeout(function () {
+                $.post(actions, {requestId: target, packetId: packetId, pageTarget: "index"}).done(function (data) {
+                    document.title = upperCaseFirst(target) + " | PServer.Online";
+                    $("#dynamic-content").html(data);
+
+                    $.post(actions, {
+                        requestId: target,
+                        packetId: packetId,
+                        pageTarget: "home"
+                    }).done(function (internalData) {
+                        $("#dynamic-internal-content").html(internalData);
+                        $("#loading").height("0%");
+                    });
+                });
+            }, delayMS);
+        });
+    }
+
+    function disableAdvertise() {
+        $("div[style|='text-align: right;position: fixed;z-index:9999999;bottom: 0; width: 100%;cursor: pointer;line-height: 0;display:block !important;']").remove();
+    }
+</script>
+</html>

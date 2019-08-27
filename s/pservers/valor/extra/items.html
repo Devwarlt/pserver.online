@@ -1,0 +1,129 @@
+<p>A core aspect of the game is finding and collecting items that will enhance your character in various ways. There is
+    plenty of loot to collect in the Realm, and plenty of monsters to take it from. Naturally, more desirable loot comes
+    from increasingly difficult areas of the game, but everything can be utilized in one way or another.</p>
+
+<div class="form-group btn-group-toggle" data-toggle="buttons" role="group">
+    <div class="btn-group btn-group-justified">
+        <div class="btn-group">
+            <button type="button" class="btn btn-warning btn-sm" data-toggle="collapse" data-target="#equipments">
+                Equipments
+            </button>
+        </div>
+    </div>
+</div>
+
+<div id="equipments" class="collapse">
+    <hr>
+
+    <h4>Equipments</h4>
+
+    <p>There is plenty of loot to collect in the Realm, and plenty of monsters to take it from. Items from the Realm are
+        grouped into tiers. The number in the left column indicates what tier the weapon is.</p>
+
+
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <tbody>
+            <tr>
+                <th>
+                    <div align="center">Weapons</div>
+                </th>
+                <th>
+                    <div align="center">Abilities</div>
+                </th>
+                <th>
+                    <div align="center">Armor</div>
+                </th>
+                <th>
+                    <div align="center">Ring</div>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <div align="center">
+                        <a id="dagger" href="#equipments-content"><img src="/s/cr/img/dagger.png"></a>
+                        <a id="bow" href="#equipments-content"><img src="/s/cr/img/bow.png"></a>
+                    </div>
+                </td>
+                <td>
+                    <div align="center">
+                        <a id="cloak" href="#equipments-content"><img src="/s/cr/img/cloak.png"></a>
+                        <a id="poison" href="#equipments-content"><img src="/s/cr/img/poison.png"></a>
+                        <a id="prism" href="#equipments-content"><img src="/s/cr/img/prism.png"></a>
+                        <a id="quiver" href="#equipments-content"><img src="/s/cr/img/quiver.png"></a>
+                        <a id="trap" href="#equipments-content"><img src="/s/cr/img/trap.png"></a>
+                        <a id="star" href="#equipments-content"><img src="/s/cr/img/star.png"></a>
+                    </div>
+                </td>
+                <td>
+                    <div align="center">
+                        <a id="heavy-armor" href="#equipments-content"><img src="/s/cr/img/heavy-armor.png"></a>
+                    </div>
+                </td>
+                <td>
+                    <div align="center">
+                        <a id="ring" href="#equipments-content"><img src="/s/cr/img/ring.png"></a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div align="center">
+                        <a id="staff" href="#equipments-content"><img src="/s/cr/img/staff.png"></a>
+                        <a id="wand" href="#equipments-content"><img src="/s/cr/img/wand.png"></a>
+                    </div>
+                </td>
+                <td>
+                    <div align="center">
+                        <a id="spell" href="#equipments-content"><img src="/s/cr/img/spell.png"></a>
+                        <a id="skull" href="#equipments-content"><img src="/s/cr/img/skull.png"></a>
+                        <a id="orb" href="#equipments-content"><img src="/s/cr/img/orb.png"></a>
+                        <a id="tome" href="#equipments-content"><img src="/s/cr/img/tome.png"></a>
+                        <a id="scepter" href="#equipments-content"><img src="/s/cr/img/scepter.png"></a>
+                    </div>
+                </td>
+                <td>
+                    <div align="center">
+                        <a id="robe" href="#equipments-content"><img src="/s/cr/img/robe.png"></a>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <div align="center">
+                        <a id="sword" href="#equipments-content"><img src="/s/cr/img/sword.png"></a>
+                        <a id="katana" href="#equipments-content"><img src="/s/cr/img/katana.png"></a>
+                    </div>
+                </td>
+                <td>
+                    <div align="center">
+                        <a id="helm" href="#equipments-content"><img src="/s/cr/img/helm.png"></a>
+                        <a id="shield" href="#equipments-content"><img src="/s/cr/img/shield.png"></a>
+                        <a id="seal" href="#equipments-content"><img src="/s/cr/img/seal.png"></a>
+                    </div>
+                </td>
+                <td>
+                    <div align="center">
+                        <a id="hide-armor" href="#equipments-content"><img src="/s/cr/img/hide-armor.png"></a>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="equipments-content"></div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        [
+            "bow", "cloak", "dagger", "heavy-armor", "helm", "katana", "orb", "poison",
+            "prism", "quiver", "ring", "robe", "scepter", "seal", "shield", "skull", "spell",
+            "staff", "star", "sword", "tome", "trap", "wand"
+        ].forEach(function (value) {
+            addSubEventPrefix(value, "valor", "WEBSITE", "items/", false, "equipments-content");
+        });
+    });
+</script>
